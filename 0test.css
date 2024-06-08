@@ -4,12 +4,21 @@
     box-sizing: border-box;
 }
 
+
+
 body{
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: #f8e16e;
+    flex-direction: column;
+    color: brown;
+    font-weight: bold;
+}
+
+header{
+    text-align: center;
 }
 
 .box {
