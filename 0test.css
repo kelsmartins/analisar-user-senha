@@ -78,6 +78,15 @@ header{
 
 @media(max-width:450px){
 
+    header{
+        text-align: center;
+        margin-top: 40px;
+    }
+
+    header p {
+        padding: 25px;
+    }
+
    .box{
     display: flex;
     flex-direction: column;
