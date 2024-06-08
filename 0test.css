@@ -4,8 +4,6 @@
     box-sizing: border-box;
 }
 
-
-
 body{
     height: 100vh;
     display: flex;
@@ -81,14 +79,14 @@ header{
 
     header{
         text-align: center;
-        height: 20vh;
+        height: 20%;
 }
 
     header p {
         padding: 25px;
     }
 
-   .box{
+   .box {
     display: flex;
     flex-direction: column;
    } 
