@@ -66,3 +66,12 @@ body{
     align-items: center;
     font-size: 15pt;
 }
+
+@media(max-width:450px){
+
+   .box{
+    display: flex;
+    flex-direction: column;
+   } 
+
+}
