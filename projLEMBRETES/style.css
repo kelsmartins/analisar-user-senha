@@ -2,7 +2,8 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 100vh; 
+    height: 100vh;
+    background-color: rgb(207, 207, 207);
 }
 
 .box {
@@ -13,6 +14,7 @@ body{
     flex-direction: column;
     padding: 20px;
     border-radius: 10px;
+    background-color: rgba(0, 0 ,0 , 0.3);
 }
 
 .inputs-area {
@@ -28,23 +30,61 @@ input {
     text-align: center;
 }
 
+/* COMO ESTILIZAR PLACEHOLDER  */
+input::-webkit-input-placeholder{
+    color: black;
+}
+
 .notes{
+    background-color: rgb(206, 206, 206);
     width: 200px;
 }
 
 .btn {
-    margin-top: 3px;
-    background-color: red;
+    margin-top: 1px;
+    background-color: rgb(206, 206, 206);
 }
 
 #list {
-    background-color: red;
     height: 80%;
     margin-top: 3px;
+    padding: 1px;
+    width: 296px;
+    list-style: none;
+}
+
+/* ESTILIZAR SCROLL */
+#list::-webkit-scrollbar {
+    background: rgb(206, 206, 206);
+}
+
+
+/* ESTILIZAR AQUELA BARRA MENOR DO SCROLL */
+#list::-webkit-scrollbar-thumb {
+    background: rgb(121, 121, 121);
+}
+
+li:first-child{
+    margin-top: 10px;
 }
 
 li {
+    display: flex;
+    align-items: center;
     margin-top: 15px;
-    color: white;
     height: 30px;
+    background-color: rgb(226, 224, 224);
+    border-bottom: 1px solid gray;
+    border-radius: 5px;
+    padding: 3px;
+}
+
+
+@media(max-width: 450px){
+
+    body {
+        display: flex;
+        flex-direction: column;
+    }
+
 }

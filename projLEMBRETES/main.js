@@ -24,14 +24,29 @@ function addLi(){
         let list = document.getElementById('list');
 
         let opt = document.createElement('li');
-        opt.textContent = `${noteText.value}`
+        opt.textContent = ` ${noteText.value}`
 
         list.appendChild(opt)
 
         noteText.value = ''
+
+        isScroll()
     }
     
 }
+
+// funcao para adicionar uma barra de rolagem se conteudo dentro for maior que a altura da div
+function isScroll(){
+
+    const list = document.getElementById('list')
+
+    if(list.scrollHeight > list.clientHeight){
+        list.style.overflowY = 'scroll';
+    } else {
+        list.style.overflowY = 'hidden';
+    }
+}
+
 
 btnAdd.addEventListener('click', addLi)
 
