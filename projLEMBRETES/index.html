@@ -4,43 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>lista de Lembretes</title>
-    <style>
-        body{
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            height: 100vh; 
-        }
-
-        .box {
-            border: 1px solid gray;
-            height: 400px;
-            width: 300px;
-            display: flex;
-            flex-direction: column;
-            padding: 20px;
-        }
-
-        #lista {
-            background-color: red;
-            height: 90%;
-            margin-top: 3px;
-        }
-
-        #btn-add {
-            background-color: red;
-        }
-
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
         <h1>Lista de Lembretes</h1>
     </header>
     <div class="box">
-        <ul id="lista">
+        <div class="inputs-area">
+            <input type="text" class="notes" id="inp-txt" placeholder="Digite aqui seu lembrete">
+            <input type="button" value="Adicionar" class="btn" id="btn-add">
+        </div>
+        <ul id="list">
         </ul>
-        <input type="button" value="Adicionar" id="btn-add">
     </div>
     <script src="main.js"></script>
 </body>

@@ -1,0 +1,50 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh; 
+}
+
+.box {
+    border: 1px solid gray;
+    height: 400px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.inputs-area {
+    display: flex;
+    justify-content: space-around;
+    height: 10%;
+}
+
+input {
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    text-align: center;
+}
+
+.notes{
+    width: 200px;
+}
+
+.btn {
+    margin-top: 3px;
+    background-color: red;
+}
+
+#list {
+    background-color: red;
+    height: 80%;
+    margin-top: 3px;
+}
+
+li {
+    margin-top: 15px;
+    color: white;
+    height: 30px;
+}
