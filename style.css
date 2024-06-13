@@ -1,0 +1,63 @@
+:root{
+    --day-light-gray: #d8d4d4;
+    --day-gray: #7c7c7c;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Yanone Kaffeesatz', Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: var(--day-light-gray);
+    display: flex;
+    justify-content: center;
+}
+
+.content {
+    margin-top: 2rem;
+    padding: 1.4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 400px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+h1 {
+    font-size: 2.7rem;
+}
+
+.projects-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    text-transform: capitalize;
+    background-color: var(--day-gray);
+    height: 2rem;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    color: #000;
+    padding: 5px;
+    font-size: 1.5rem;
+}
+
+a:hover {
+   background-color: #686868; 
+   font-weight: 500;
+}
