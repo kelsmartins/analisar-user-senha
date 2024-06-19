@@ -12,11 +12,6 @@ function theList(){
     return gettheList;
 }
 
-
-function seila(){
-    window.alert('oi')
-}
-
 function addTask(){
 
     let liTask = inpTask();
