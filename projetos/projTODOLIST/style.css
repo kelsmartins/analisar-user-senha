@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.content {
+    width: 100vw;
+    height: 100vh;
+    background-color: #272727;
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+h1 {
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+}
+
+.inputs-area {
+    width: 400px;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.inptxt {
+    width: 325px;
+    height: 2.3rem;
+    border: 1px solid rgb(255, 255, 52);
+    border-radius: 15px;
+    background-color: transparent;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    transition: 0.1s;
+}
+
+.inptxt:hover{
+    border: 3px solid rgb(255, 255, 52);
+}
+
+#btntask {
+    width: 2.3rem;
+    height: 2.3rem;
+    border-radius: 50%;
+    border: 1px solid #0044ff;
+    background-color: transparent;
+    color: white;
+}
+
+#btntask:hover{
+    border: 3px solid #0044ff; 
+    transition: 0.1s;
+}
+
+#list{
+    width: 400px;
+} 
+
+#list li {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 2rem;
+    border-bottom: 1px solid rgb(255, 255, 52);
+    transition: 0.1s;
+}
+
+#list li:nth-child(2n+2){
+    border-bottom: 1px solid #0044ff;
+}
+
+#btn-left, #btn-right {
+    width: 1.2rem;
+    height: 1.2rem;
+    border-radius: 50%;
+    border: 1px solid rgb(255, 255, 52);
+    background-color: transparent;
+    color: white;
+}
+
+#list li:nth-child(2n+2) #btn-left, #list li:nth-child(2n+2) #btn-right {
+    border: 1px solid #0044ff;
+}
+
+#list li:hover {
+    border-bottom: 2px solid rgb(255, 255, 52);
+}
+
+#list li:nth-child(2n+2):hover {
+    border-bottom: 2px solid #0044ff;
+    
+}
+
+
+
