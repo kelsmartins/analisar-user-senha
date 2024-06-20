@@ -46,7 +46,7 @@
     backdrop-filter: blur(10px);
     border: 2px solid #f2647b;
     border-radius: 15px;
-    color: white;
+    color: #f2647b;
 }
 
 .modal-header {
