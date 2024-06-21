@@ -40,7 +40,7 @@
 }
 
 .modal {
-    width: 400px;
+    width: 380px;
     height: 300px;
     padding: 20px;
     backdrop-filter: blur(10px);
@@ -54,7 +54,7 @@
     justify-content: space-between;
     align-items: center;
     height: 4rem;
-    border-bottom: 3px solid #f2647b;
+    border-bottom: px solid #f2647b;
 }
 
 #btnclose-modal {
@@ -62,7 +62,7 @@
     height: 35px;
     border:  2px solid #f2647b;
     border-radius: 10px;
-    color: white;
+    color: #f2647b;
     background-color: transparent;
     cursor: pointer;
 }
@@ -70,5 +70,12 @@
 .modal p {
     margin-top: 1rem;
     text-align: justify;
+}
+
+@media(max-width:450px){
+
+    .modal {
+        width: 350px;
+    }
 }
 
